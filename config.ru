@@ -32,7 +32,7 @@ map '/' do
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome to UTCCP</title>
+  <title>Welcome to UCCPS</title>
 
 
 <style>
@@ -239,7 +239,7 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>Welcome to your Ruby application on UTCCP</h1>
+            <h1>Welcome to your Ruby application on UCCPS</h1>
           </hgroup>
 
 
@@ -248,8 +248,8 @@ pre {
             <section>
               <h2>Deploying code changes</h2>
                 <p>
-                  The source code for this application is available to be forked from the <a href="https://www.github.com/utccp/ruby-ex">UTCCP GitHub repository</a>.
-                  You can configure a webhook in your repository to make UTCCP automatically start a build whenever you push your code:
+                  The source code for this application is available to be forked from the <a href="https://www.github.com/utccp/ruby-ex">UCCPS GitHub repository</a>.
+                  You can configure a webhook in your repository to make UCCPS automatically start a build whenever you push your code:
                 </p>
 
 <ol>
@@ -257,10 +257,10 @@ pre {
   <li>Click on Browse &gt; Builds</li>
   <li>From the view for your Build click on the button to copy your GitHub webhook</li>
   <li>Navigate to your repository on GitHub and click on repository settings &gt; webhooks</li>
-  <li>Paste your webhook URL provided by UTCCP &mdash; that's it!</li>
+  <li>Paste your webhook URL provided by UCCPS &mdash; that's it!</li>
 </ol>
 <p>After you save your webhook, if you refresh your settings page you can see the status of the ping that Github sent to OpenShift to verify it can reach the server.</p>
-<p>Note: adding a webhook requires your UTCCP server to be reachable from GitHub.</p>
+<p>Note: adding a webhook requires your UCCPS server to be reachable from GitHub.</p>
 
                 <h3>Working in your local Git repository</h3>
                 <p>If you forked the application from the OpenShift GitHub example, you'll need to manually clone the repository to your local system. Copy the application's source code Git URL and then run:</p>
@@ -286,11 +286,11 @@ $ git push</pre>
                 <p>You can use the Web Console to view the state of your application components and launch new builds.</p>
 
                 <h3>Command Line</h3>
-                <p>With the <a href="http://docs.okd.io/latest/cli_reference/overview.html">UTCCP command line interface</a> (CLI), you can create applications and manage projects from a terminal.</p>
+                <p>With the <a href="http://docs.okd.io/latest/cli_reference/overview.html">UCCPS command line interface</a> (CLI), you can create applications and manage projects from a terminal.</p>
 
                 <h2>Development Resources</h2>
                   <ul>
-                    <li><a href="http://docs.okd.io/latest/welcome/index.html">UTCCP Documentation</a></li>
+                    <li><a href="http://docs.okd.io/latest/welcome/index.html">UCCPS Documentation</a></li>
                     <li><a href="https://github.com/utccp/source-to-image">Source To Image GitHub</a></li>
                     <li><a href="http://docs.okd.io/latest/using_images/s2i_images/ruby.html">Getting Started with Ruby on OpenShift</a></li>
                     <li><a href="http://git-scm.com/documentation">Git documentation</a></li>

@@ -2,7 +2,7 @@
 
 <!-- toc -->
 
-- [Ruby Sample App on UTCCP](#ruby-sample-app-on-utccp)
+- [Ruby Sample App on UCCPS](#ruby-sample-app-on-utccp)
     + [Installation](#installation)
     + [Debugging Unexpected Failures](#debugging-unexpected-failures)
     + [Adding Webhooks and Making Code Changes](#adding-webhooks-and-making-code-changes)
@@ -10,10 +10,10 @@
 
 <!-- tocstop -->
 
-Ruby Sample App on UTCCP
+Ruby Sample App on UCCPS
 ============================
 
-This is a basic ruby application for UTCCP v1 that you can use as a starting point to develop your own application and deploy it on an [UTCCP](https://github.com/utccp/origin) cluster.
+This is a basic ruby application for UCCPS v1 that you can use as a starting point to develop your own application and deploy it on an [UCCPS](https://github.com/utccp/origin) cluster.
 
 If you'd like to install it, follow [these directions](https://github.com/utccp/ruby-ex/blob/master/README.md#installation).  
 
@@ -63,7 +63,7 @@ In this case, the IP for ruby-ex is 172.30.97.209 and it is on port 8080.
 *Note*: you can also get this information from the web console.
 
 ### Adding Webhooks and Making Code Changes
-Since UTCCP v1 does not provide a git repository out of the box, you can configure your github repository to make a webhook call whenever you push your code.
+Since UCCPS v1 does not provide a git repository out of the box, you can configure your github repository to make a webhook call whenever you push your code.
 
 1. From the console navigate to your project.  
 2. Click on Browse > Builds  
